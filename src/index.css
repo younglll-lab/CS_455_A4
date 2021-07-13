@@ -1,0 +1,200 @@
+body {
+    background: linear-gradient(to bottom,#336699, white);
+    background-repeat: no-repeat;
+}
+/*#homepage_description {*/
+/*    color: azure;*/
+/*}*/
+.header {
+    color: white;
+    text-align: center;
+}
+
+.topnav {
+    margin: 50px auto;
+    background-color: #28559A;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: rgba(56, 138, 239, 0.8);
+    color: black;
+}
+
+.topnav a.active {
+    background-color: rgba(227, 99, 40, 0.9);
+    color: white;
+}
+
+#homepage_img {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+h2 {
+    color: #996633;
+}
+
+.card_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 75%;
+}
+
+#card_canvas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card_display {
+
+    display: block;
+    float: left;
+    width: 200px;
+    height: 60%;
+    background: lightcyan;
+    margin: 15px auto;
+    border: 6px solid #28769A;
+    padding: 15px;
+}
+
+.card_name {
+    font-size: 15px;
+    background: lightcyan;
+    border: 6px solid #28769A;
+    text-align: center;
+    padding: 10px;
+}
+
+.card_block {
+    float: left;
+    margin: 10px 30px;
+}
+
+.custom_button-delete_single_card {
+    padding: 10px;
+    background: #3F51B5;
+    color: white;
+    border-radius: 10px;
+    margin: 2px 4px;
+    width: 150px;
+    position:relative;
+    left: 17%;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.adding_cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#adding_cards_box {
+    display: block;
+    width: 50%;
+    background: lightcyan;
+    margin: 15px auto;
+    border: 6px solid #28769A;
+    border-radius: 20px;
+    padding: 15px;
+    max-width: 500px;
+}
+.input_canvas {
+    display: block;
+    width: 75%;
+    padding: 10px;
+    margin: 0 auto;
+    border: 1px solid #28769A;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#adding_cards_box_button_block {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.custom_button {
+    padding: 10px;
+    background: #3F51B5;
+    color: white;
+    border-radius: 10px;
+    margin: 2px 4px;
+    width: 40%;
+}
+
+#delete_all_cards {
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+    width: 82%;
+}
+
+#about_me {
+    font-size: 20px;
+    color: #28559A;
+}
+
+/* .dialog_background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(227, 242, 253);
+} */
+
+.dialog_canvas {
+    position: absolute;
+    background-color: rgb(227, 242, 253);
+    border: 6px solid #28769A;
+    padding: 20px;
+    display: flex;
+    width: 450px;
+    height: 50%
+}
+
+.dialog_img {
+    display: block;
+    margin: 20px;
+    width: 50%;
+    height: 90%;
+    justify-content: center ;
+}
+
+.close_btn {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    border: 2px solid #28769A;
+    margin: 1px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    color: #28769A;
+    font: 10px;
+    transform: rotate(45deg);
+}
+
+
+
